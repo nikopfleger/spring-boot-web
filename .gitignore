@@ -1,3 +1,4 @@
 
 .project
 target/classes/META-INF/maven/com.bolsadeideas.springboot.app/spring-boot-web/pom.properties
+*.properties
