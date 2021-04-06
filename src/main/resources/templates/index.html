@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<!-- se agrega xmlns para poder usar thymeleaf y poder pasarle datos a la vista del controlador -->
+<head>
+<meta charset="UTF-8" />
+<!-- Reemplaza los datos del title o mas abajo del h1 por lo que le pasamos, el nombre debe ser igual al que le pasamos en model -->
+<!-- Se pasa con "${}" -->
+<title th:text="${titulo}"></title>
+</head>
+<body>
+<h1 th:text="${titulo}"></h1>
+</body>
+</html>
