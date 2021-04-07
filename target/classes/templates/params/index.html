@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8" />
+<title>Enviar parámetros del Request HTTP GET - URL</title>
+</head>
+<body>
+	<h1>Enviar parámetros del Request HTTP GET - URL</h1>
+	<ul>
+	<li>
+<!-- los @{} es para rutas url en thymeleaf (propias del proyecto, controladores/metodos handler/recursos/javascript/hola de estilos  -->	
+	<a th:href="@{/params/string(texto='Hola Nico')}">/params/string?texto=Hola Nico</a></li>
+	<li><a th:href="@{/params/string(texto='Que tal Nico')}">/params/string?texto=Que tal Nico</a>
+	</li>
+	</ul>
+</body>
+</html>
